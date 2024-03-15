@@ -1,0 +1,375 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.c_green{background-color: green;}
+.c_yellow{background-color: yellow;}
+.c_orange{background-color: orange;}
+.c_red{background-color: red;}
+.c_dark-pink{background-color: rgb(196, 100, 116);}
+.c_blue{background-color: blue;}
+.c_light-blue{background-color: lightblue;}
+.c_light-green{background-color: lightgreen;}
+.c_pink{background-color: pink;}
+.c_black{background-color: black;}
+
+
+.all-content-wrapper{
+    display: grid;
+    place-content: center;
+     background-color: rgb(255, 255, 255);
+     padding-top: 10px;
+}
+
+section.trello-wrapper{
+    max-width: 1700px;
+    width: 80%;
+    min-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    padding: 10px 10px;
+    background: #FDBC64;
+    background: linear-gradient(135deg, #FDBC64, #FD7209);
+}
+
+header.header-1{
+    background-color: rgb(109, 109, 109, 0.4);
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+header.header-2{
+    margin: 0 auto;
+    padding: 5px;
+    color: white;
+}
+
+.header-block-left{
+    max-width: 270px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 3px;
+}
+
+.left-add-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 30px;
+    padding: 0px 5px;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 3px;
+    color: white;
+}
+
+.input-left{
+    display: inline-block;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.icon-brand{
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+}
+
+.header-block-center{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.trello-icon{
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+}
+
+.header-block-right{
+    max-width: 270px;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.header-block-right .blocks-right {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.blocks-right:nth-child(2){
+  display: flex;
+  width: fit-content;
+}
+
+.chanelle-img{
+    width: 30px;
+    height: 30px;
+}
+
+.chanelle-name{
+    padding: 0px 10px;
+}
+
+/*header 2 start*/
+
+header.header-2{
+    max-width: 1700px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-2-left{
+
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    padding: 2px;
+    gap: 20px;
+}
+
+.wrapper-icon-company{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+}
+
+
+.wrapper-icons-names{
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.plane-wrapper-icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    display: grid;
+    place-content: center;
+}
+
+.plane-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(37, 37, 97);
+}
+
+
+/*right part start*/
+.header-2-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+    padding: 0px 10px;
+}
+
+.header-2-right  a{
+    color: white;
+}
+/*right part end*/
+/*header 2 end*/
+
+
+.scroll-wrapper{
+overflow-x: scroll; 
+white-space: nowrap; 
+overflow-y: hidden;
+}
+
+.scroll-wrapper .message-blok-wrapper {
+    max-width: 320px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    padding: 5px 5px;
+        float: none; 
+        display: inline-flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 10px;
+}
+
+.message-blok-wrapper h2 p span{
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 2px;
+}
+
+.message-blok-wrapper h2 p{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.message-blok-wrapper:first-child{
+    padding: 5px;
+    margin-bottom: 150px;
+}
+
+.height-150{
+    height: 150px!important;
+}
+
+.message-blok-wrapper > h2{
+    padding: 5px;
+}
+
+main.trello-main{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+/* trello cards section start*/
+
+
+
+
+/* trello cards section end*/
+h2{
+    display: flex;
+    align-items: center;
+}
+
+
+.message-scroll-block{
+    max-height: 90vh;
+    padding: 0px 5px 0px 0px;
+    overflow-y: scroll;
+    display: grid;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* inside cards style START*/
+  .message-blok-wrapper .message-wrapper{
+    background-color: #fff;
+    border-radius: 5px;
+    height: auto;
+    padding: 5px ;
+}
+
+.product-name{
+    padding: 5px 0px;
+}
+
+
+.colored-lines{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.line{
+    width: 45px;
+    height: 10px;
+    border-radius: 30px;
+    order:  1px solid black;
+}
+
+line {
+    background-color: var(--main-bg-color);
+  }
+
+  .hamburger-and-image{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .one-more-wrapper{
+    display: flex;
+    height: fit-content;
+    gap: 15px;
+  }
+
+  .clock-and-date{
+    display: flex;
+    gap: 5px;
+    color: #818181;
+  }
+
+  .hamburger-wrapper{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .hamburger-wrapper div{
+     height: 1px;
+     background-color: black;
+     padding: 0;
+  }
+
+  .hamburger-wrapper div:last-child{
+  width: 50%;
+  }
+
+  .image-wrapper{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+  }
+
+  .avatars-wrapper{
+    display: flex;
+    gap: 5px;
+  }
+
+  .and-a-card{
+    padding: 5px;
+  }
+
+  .bg-pink{
+    background-color: pink;
+  }
+
+  .image-lady{
+    background-image: url( https://img.freepik.com/free-vector/watercolor-ethnic-beauty-illustration_52683-109549.jpg?w=740&t=st=1710414097~exp=1710414697~hmac=d8b6b341467cd6dd483a151d2269ffe0966b8611991ecbeb2e8c416ed8ba9f47 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .image-gentleman{
+    background-image: url( https://img.freepik.com/free-vector/man-face-close-up_98292-4059.jpg?w=740&t=st=1710414118~exp=1710414718~hmac=843fd26c6855eff09fde50f5d586ad1639ddb6d7a62801ff3187b4ee6bcf707a );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+/* inside cards style END*/
